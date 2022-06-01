@@ -6,6 +6,7 @@ import PostMessage from '../models/postMessage.js';
 const router = express.Router();
 
 export const getPosts = async (req, res) => {
+    // res.send('This works!');
     try {
         const postMessage = await PostMessage.find();
 
