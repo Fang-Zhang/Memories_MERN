@@ -9,6 +9,6 @@ route.post('/', createPost);
 route.get('/:id', getPost);
 route.patch('/:id', updatePost);
 route.delete('/:id', deletePost);
-route.patch('/:id/like', likePost);
+route.patch('/:id/likePost', likePost);
 
 export default route;
